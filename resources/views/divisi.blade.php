@@ -1,8 +1,7 @@
 @extends('layouts.main')
 
 @section('container')
-<div class="relative w-[1920px] mx-auto overflow-hidden">
-
+<div class="w-full max-w-[1920px] min-h-[2244px] mx-auto overflow-x-hidden bg-white">
     <div class="relative w-full max-w-[1920px] mx-auto h-[278px] font-['Montserrat'] overflow-hidden bg-[#275032]">
     
         <div class="absolute inset-0 w-[1920px] h-[278px] bg-cover bg-center" style="background-image: url('{{ asset('img/hero.jpg') }}');"></div>
@@ -10,30 +9,6 @@
         <div class="absolute inset-0 bg-[#275032] mix-blend-multiply opacity-60"></div>
     
         <div class="absolute left-0 top-[99px] w-[600px] h-[179px] bg-gradient-to-r from-[#172e1d] via-[#275032]/80 to-transparent z-0"></div>
-    
-        {{-- <div class="absolute left-0 top-0 w-full h-[99px] bg-[#275032] z-10"> --}}
-            
-            {{-- <div class="absolute left-0 top-0 w-[559px] h-[99px] bg-[#D9D9D9]" style="clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);"></div> --}}
-    
-            {{-- <img src="{{ asset('img/logo.png') }}" alt="Logo" class="absolute left-[217px] top-[16px] w-[70px] h-[67px] object-contain z-20"> --}}
-    
-            {{-- <div class="absolute left-[601px] top-0 h-[99px] flex flex-row items-center gap-[70px] z-20">
-                <a href="#" class="text-white text-[16px] font-semibold hover:text-[#E99C16]">Home</a>
-                <a href="#" class="text-white text-[16px] font-semibold hover:text-[#E99C16]">About Us</a>
-                <div class="text-[#E99C16] text-[16px] font-semibold flex items-center relative cursor-pointer">
-                    Divisi
-                    <svg class="absolute right-[-22px] top-[50%] translate-y-[-50%] w-[16px] h-[16px] rotate-[-90deg]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M15 19l-7-7 7-7"></path></svg>
-                </div>
-                <a href="#" class="text-white text-[16px] font-semibold hover:text-[#E99C16]">Prestasi</a>
-                <a href="#" class="text-white text-[16px] font-semibold hover:text-[#E99C16]">Program</a>
-                <a href="#" class="text-white text-[16px] font-semibold hover:text-[#E99C16]">Contact Us</a>
-            </div> --}}
-    
-            {{-- <div class="absolute left-[1488px] top-[29px] w-[232px] h-[40px] border border-[#E99C16] rounded-[6px] drop-shadow-[0_5px_5px_rgba(0,0,0,0.05)] flex items-center z-20">
-                <svg class="absolute left-[15px] w-[16px] h-[16px] text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-                <input type="text" placeholder="cari" class="absolute left-[70px] top-[9px] bg-transparent w-[140px] h-[20px] text-[16px] font-semibold text-white/75 outline-none">
-            </div>
-        </div>  --}}
     
         <div class="absolute left-[200px] top-[183px] flex items-center gap-[22px] z-20">
             <span class="text-[#C8C6C7] text-[20px] font-normal">Home</span>
